@@ -1,10 +1,10 @@
 import  ReactDOM  from "react-dom";
 import React from "react";
-import Multi from "./components/MultiElementos";
+import SilvaFamily from "./components/SilvaFamily";
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Multi />
+        <SilvaFamily lastName='Silva' />
     </div>
 , elemento)
