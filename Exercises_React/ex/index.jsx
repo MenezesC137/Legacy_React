@@ -1,8 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Component from "./component.jsx";
+import Primeiro, {Segundo} from "./component.jsx";
 
 
 ReactDOM.render(
-    <Component /> 
+    <div>
+        <Primeiro />
+        <Segundo />
+    </div>
 , document.getElementById("app"));
