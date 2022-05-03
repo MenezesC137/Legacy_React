@@ -1,5 +1,8 @@
 import React from "react";
 
 export default props => (
-    <h1>Olá React</h1>
+    <div>
+        <h1>{props.value}</h1>
+        <h2>{props.name}</h2>
+    </div>
 )

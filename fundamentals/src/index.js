@@ -4,5 +4,5 @@ import PrimeiroComponent from "./components/PrimeiroComponent";
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
-    <PrimeiroComponent />
+    <PrimeiroComponent value='Bom dia' name='Carlos'/>
 , elemento)
