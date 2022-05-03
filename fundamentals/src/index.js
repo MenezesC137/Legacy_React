@@ -1,11 +1,10 @@
 import  ReactDOM  from "react-dom";
 import React from "react";
-import { CompA, CompB } from "./components/DoisComponents";
+import Multi from "./components/MultiElementos";
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <CompA valor='Bom dia!' />
-        <CompB valor='Mas já e de tarde!' />
+        <Multi />
     </div>
 , elemento)
