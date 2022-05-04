@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import Father from "./components/Father";
+import ComponentClasse from "./components/ComponentClass";
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
-    <Father />
+    <ComponentClasse  />
 , elemento)
