@@ -1,10 +1,8 @@
-import  ReactDOM  from "react-dom";
+import ReactDOM from "react-dom";
 import React from "react";
-import Comp from "./components/ComponentsComfunction";
+import Father from "./components/Father";
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
-    <div>
-        <Comp />
-    </div>
+    <Father />
 , elemento)
