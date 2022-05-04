@@ -3,5 +3,5 @@ import Member from "./Member";
 
 export default props =>
     <div>
-        <Member name='Ana' lastName='Silva'/>
+        <Member name='Ana' lastName={props.lastName}/>
     </div>

@@ -6,7 +6,7 @@ import Family from "./components/Family";
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Family lastName='Silva'>
+        <Family lastName='Silva Pereira'>
             <Member name ='Ana' />
         </Family>
     </div>
