@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import ComponentClasse from "./components/ComponentClass";
+import Contador from "./components/Contador";
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
-    <ComponentClasse  />
+    <Contador num={0} />
 , elemento)
