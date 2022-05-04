@@ -4,5 +4,5 @@ import Contador from "./components/Contador";
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
-    <Contador num={0} />
+    <Contador numInicial={100} />
 , elemento)
