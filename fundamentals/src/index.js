@@ -1,14 +1,10 @@
 import  ReactDOM  from "react-dom";
 import React from "react";
-import Member from "./components/Member";
-import Family from "./components/Family";
+import Comp from "./components/ComponentsComfunction";
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Family lastName='Silva'>
-            <Member name ='Ana' />
-            <Member name ='Carlos' />
-        </Family>
+        <Comp />
     </div>
 , elemento)
