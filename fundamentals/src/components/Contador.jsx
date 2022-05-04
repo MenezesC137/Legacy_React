@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
 export default class Contador extends Component {
-    
-    sum() {
+
+    sum = () => {
         this.props.numero++
     }
     
